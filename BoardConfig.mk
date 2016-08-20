@@ -146,7 +146,7 @@ BOARD_SEPOLICY_DIRS += device/mediatek/mt6582/sepolicy
 POLICYVERS := 26
 
 # Hack for building without kernel sources
-$(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
+$(shell mkdir -p /and/cm-mt/out/target/product/mt6582/obj/KERNEL_OBJ/usr)
 
 # FMRadio
 MTK_FM_SUPPORT := yes
